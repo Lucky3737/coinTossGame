@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.app {
+  background-color: chartreuse;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.coin-container {
+  height: 50%;
+  width: 50%;
+  background-color: aliceblue;
+  box-shadow: 0px 0px 5px 5px crimson;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.img-size {
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
+.btn {
+  background-color: darkorange;
+  height: 40px;
+  width: 120px;
+  color: white;
+  border-radius: 15px;
+  margin: 10px;
+}
+.count-card {
+  display: flex;
+
+  justify-content: space-around;
+}
